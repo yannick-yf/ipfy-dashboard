@@ -46,7 +46,7 @@ frontp = function() div(class = "frontp",
                                        tags$p("Click here to get more details on my career through my LinkedIn profile")
                                    )),
                             tags$a(target = "_blank",
-                                   href = "https://www.linkedin.com/in/yannick-flores-49583a102/",
+                                   href = "https://github.com/yannick-yf",
                                    div(class = "float box box-more2",
                                        tags$p(class = "intro", "GitHub Profile"),
                                        tags$p("Click here to get access to more technical details through my GitHub profile")
