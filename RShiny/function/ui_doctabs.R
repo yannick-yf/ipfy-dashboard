@@ -27,34 +27,39 @@ frontp = function() div(class = "frontp",
                             div(class = "hcon", h1("Data Scientist"))
                         ),
                         #tags$p(tags$span(class = "warning", "This app is still in active development and has not been officially launched.")),
-                        tags$p(class = "intro", "The IPFY Dashboard is a one-stop view for all information about myself. It brings together a range of application, scripts and models that I produced."),
+                        tags$p(class = "intro", "This Dashboard is a one-stop view of information about myself. It brings together a non-exhaustive range of apps, scripts, and models that I produced as well as my CV and URLs to my GitHub and LinkedIn accounts."),
                         div(class = "intro-divider"),
                         tags$p("Main subject-area groupings functional activites are shown on the toolbar above. To navigate around this site, left-click one of the subject areas and then select one of the related categories in the drop down list."),
-                        tags$p("Graphs can be downloaded as PDFs and tables can be downloaded to a csv file. Information on how to use the app is available in the",
-                               tags$a("Help/Contact", title = "Help Tab", href = "#", id = "ContactTabLink"), "tab.",
-                               tags$script("$('#ContactTabLink').click(function(){$('a[data-value=\"Help/Contact\"]')[0].click();});")
-                        ),
                         div(class = "box-con",
-                            tags$a(target = "_blank",
-                                   href = "https://www.linkedin.com/in/yannick-flores-49583a102/",
-                                   div(class = "float box box-more",
-                                       tags$p(class = "intro", "Find out more"),
-                                       tags$p("Click here for more details information on my career")
-                                   )),
                             tags$a(target = "_blank",
                                    href = "CV Flores Yannick 202008_v2.pdf",
                                    div(class = "float box box-rear",
                                        tags$p(
                                          tags$img(class = "rear-preview", src = "CV_logo.jpg"),
-                                         "The", span(class = "bold", "Report link"),
-                                         "Click here to download the report and/or more details."
+                                         span(class = "bold", "CV: "),"Click here to download my up-to-date CV."
                                        )
-                                   )
-                            )
+                                   )),
+                            tags$a(target = "_blank",
+                                   href = "https://www.linkedin.com/in/yannick-flores-49583a102/",
+                                   div(class = "float box box-more",
+                                       tags$p(class = "intro", "Linkedin Profile"),
+                                       tags$p("Click here to get more details on my career through my LinkedIn profile")
+                                   )),
+                            tags$a(target = "_blank",
+                                   href = "https://www.linkedin.com/in/yannick-flores-49583a102/",
+                                   div(class = "float box box-more2",
+                                       tags$p(class = "intro", "GitHub Profile"),
+                                       tags$p("Click here to get access to more technical details through my GitHub profile")
+                                   ))
+                        ),
+                        tags$p("Some Graphs can be downloaded as PDFs and some tables can be downloaded to a csv file. Data used in each section are public and free of usage. Information on how to use the app and contact details are available in the",
+                               tags$a("Help/Contact", title = "Help Tab", href = "#", id = "ContactTabLink"), "tab.",
+                               tags$script("$('#ContactTabLink').click(function(){$('a[data-value=\"Help/Contact\"]')[0].click();});")
                         ),
                         div(class = "box box-timeout",
                             tags$p(tags$span(class = "bold", "PLEASE NOTE:"),
-                                   "Add text refernce or anything you judge needed.")
+                                   "This app may time-out if left idle too long, which will cause the screen to grey-out.",
+                                   "To use the app again, refresh the page. This will reset all previously-selected input options.")
                         )
 )
 
@@ -70,12 +75,12 @@ helpp = function() div(class = "frontp",
                        h3("Contact/Feedback"),
                        div(
                          tags$p("Have any feedback? Please send any feedback at the folwing address: ",
-                                tags$span(class = "defword", "yannick.flores@syngenta.com")),
+                                tags$span(class = "defword", "yannick.flores1992@gmail.com")),
                          tags$p("Please mention the following in the subject:"),
                          tags$ul(
-                           tags$li("The name of the app (ptai-mds-dashboard)"),
+                           tags$li("The name of the app (ipfy-dashboard)"),
                            tags$li("Which tab/sub-tab you are referring (if applicable)"),
-                           tags$li("e.g. ptai-mds-dashboard: Overview")
+                           tags$li("e.g. ipfy-dashboard: Profile")
                          ),
                          tags$p("Then details of feedback in the body of the email.")
                        )

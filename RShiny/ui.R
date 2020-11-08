@@ -34,18 +34,20 @@ ui <-
   tabPanel("Start",
            frontp()
   ),
-  navbarMenu("Data Processing",
-             tabPwT("tab1 - SubTab1"),
-             tabPwT("tab1 - SubTab2"),
-             tabPwT("tab1 - SubTab3"),
-             tabPwT("tab1 - SubTab4")
+  navbarMenu("Profile",
+             tabPwT("Who I am"),
+             tabPwT("My ambition"),
+             tabPwT("My vision about data"),
+             tabPwT("Professional and personal Goals")
   ),
-  navbarMenu("Data Viz",
+  navbarMenu("Section 1",
              tabPwT("tab2 - SubTab1")),
-  navbarMenu("Data Modeling",
-             tabPwT("tab3 - SubTab1")),
-  navbarMenu("Data App",
-             tabPwT("tab4 - SubTab1")),
+
+  navbarMenu("Section 2",
+             tabPwT("tab2 - SubTab1")),
+  
+  navbarMenu("Section 3",
+             tabPwT("tab2 - SubTab1")),
   
   ########## Help Tab #################
   tabPwT("Help/Contact",

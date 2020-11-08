@@ -7,7 +7,7 @@ mbie_header =
                  div(class = "mbie-brand",
                      tags$a(class = "mbie-brand", href = "https://google.com",
                             title = "IPFY",
-                            tags$img(src = "logo_flores_yannick2.jpg",
+                            tags$img(src = "logo/logo_flores_yannick2.jpg",
                                      alt = "test"))
                  ),
                  tags$script('if(window != window.parent){$("#mbie-header").css("display", "none");}')
