@@ -8,3 +8,6 @@ source("myServer.R", local = TRUE)
 
 shinyApp(ui = ui,
          server = myserver)
+
+# Multiple language in RShiny
+# https://appsilon.com/internationalization-of-shiny-apps-i18n/
