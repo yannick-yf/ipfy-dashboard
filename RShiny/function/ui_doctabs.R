@@ -47,6 +47,7 @@ frontp = function() div(class = "frontp",
                                    )),
                             tags$a(target = "_blank",
                                    href = "https://github.com/yannick-yf?tab=repositories",
+                                   #href = "https://github.com/yannick-yf",
                                    div(class = "float box box-more2",
                                        tags$p(class = "intro", "GitHub Profile"),
                                        tags$p("Click here to get access to more technical details through my GitHub profile")
