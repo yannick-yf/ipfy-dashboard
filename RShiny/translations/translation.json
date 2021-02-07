@@ -1,0 +1,59 @@
+{
+    "languages": ["en", "fr"],
+    "translation": [
+        {
+            "en": "This Dashboard is a one-stop view of information about myself. It brings together a non-exhaustive range of apps, scripts, and models that I produced as well as my CV and URLs to my GitHub and LinkedIn accounts.",
+            "fr": "Ce Dashboard est une application unique d'informations me concernant. Il permet d'acceder à une liste non-exhaustive d'applications, de scripts et de modèles que j'ai crées."
+        },
+        {
+            "en": "PLEASE NOTE:",
+            "fr": "REMARQUE:"
+        },
+        {
+            "en": "This app may time-out if left idle too long, which will cause the screen to grey-out.",
+            "fr": "Cette application peut se bloquer si elle reste inactive trop longtemps, ce qui entraîne un freeze de l'écran."
+        },
+        {
+            "en": "To use the app again, refresh the page. This will reset all previously-selected input options.",
+            "fr": "Pour utiliser à nouveau l'application, rafraîchissez la page. Cela réinitialisera toutes les options de saisie précédemment sélectionnées."
+        },
+        {
+            "en": "Some Graphs can be downloaded as PDFs and some tables can be downloaded to a csv file. Data used in each section are public and free of usage. Information on how to use the app and contact details are available in the",
+            "fr": "Certains graphiques peuvent être téléchargés en format PDF et certains tableaux peuvent être téléchargés dans un fichier csv. Les données utilisées dans chaque section sont publiques et gratuites. Des informations sur l'utilisation de l'application et les coordonnées sont disponibles dans la section"
+        },
+        {
+            "en": "tab.",
+            "fr": ""
+		},
+        {
+            "en": "Main subject-area groupings functional activites are shown on the toolbar above. To navigate around this site, left-click one of the subject areas and then select one of the related categories in the drop down list.",
+            "fr": "Les differentes sections et sujets sont indiquées sur la barre d'outils ci-dessus. Pour naviguer sur ce site, cliquez avec le bouton gauche de la souris sur l'un des domaines, puis sélectionnez l'une des catégories connexes dans la liste déroulante."
+		},
+        {
+            "en": "Linkedin Profile",
+            "fr": "Profile Linkedin"
+		},
+        {
+            "en": "GitHub WebPage",
+            "fr": "Page Web GitHub"
+		},
+        {
+            "en": "Click here to get access to more technical details through my GitHub profile",
+            "fr": "Cliquez ici pour accéder à plus de détails techniques via mon profil GitHub"
+		},
+        {
+            "en": "Click here to get more details on my career through my LinkedIn profile",
+            "fr": "Cliquez ici pour obtenir plus de détails sur ma carrière grâce à mon profil LinkedIn"
+		},
+        {
+            "en": "Click here to download my up-to-date CV.",
+            "fr": "Cliquez ici pour télécharger mon CV à jour."
+		}
+		
+		
+		
+	
+    ]
+}
+
+

@@ -24,43 +24,44 @@ tabdesc = c(
 frontp = function() div(class = "frontp",
                         div(class = "front-banner",
                             div(class = "imgcon"),
-                            div(class = "hcon", h1("Data Scientist"))
+                            div(class = "hcon", h1("ML Engineer | Data Scientist"))
                         ),
+                        shiny.i18n::usei18n(i18n),
                         #tags$p(tags$span(class = "warning", "This app is still in active development and has not been officially launched.")),
-                        tags$p(class = "intro", "This Dashboard is a one-stop view of information about myself. It brings together a non-exhaustive range of apps, scripts, and models that I produced as well as my CV and URLs to my GitHub and LinkedIn accounts."),
+                        tags$p(class = "intro", i18n$t("This Dashboard is a one-stop view of information about myself. It brings together a non-exhaustive range of apps, scripts, and models that I produced as well as my CV and URLs to my GitHub and LinkedIn accounts.")),
                         div(class = "intro-divider"),
-                        tags$p("Main subject-area groupings functional activites are shown on the toolbar above. To navigate around this site, left-click one of the subject areas and then select one of the related categories in the drop down list."),
+                        tags$p(i18n$t("Main subject-area groupings functional activites are shown on the toolbar above. To navigate around this site, left-click one of the subject areas and then select one of the related categories in the drop down list.")),
                         div(class = "box-con",
                             tags$a(target = "_blank",
                                    href = "CV Flores Yannick 202008_v2.pdf",
                                    div(class = "float box box-rear",
                                        tags$p(
                                          tags$img(class = "rear-preview", src = "CV_logo.jpg"),
-                                         span(class = "bold", "CV: "),"Click here to download my up-to-date CV."
+                                         span(class = "bold", "CV: "),i18n$t("Click here to download my up-to-date CV.")
                                        )
                                    )),
                             tags$a(target = "_blank",
                                    href = "https://www.linkedin.com/in/yannick-flores-49583a102/",
                                    div(class = "float box box-more",
-                                       tags$p(class = "intro", "Linkedin Profile"),
-                                       tags$p("Click here to get more details on my career through my LinkedIn profile")
+                                       tags$p(class = "intro", i18n$t("Linkedin Profile")),
+                                       tags$p(i18n$t("Click here to get more details on my career through my LinkedIn profile"))
                                    )),
                             tags$a(target = "_blank",
                                    href = "https://github.com/yannick-yf?tab=repositories",
                                    #href = "https://github.com/yannick-yf",
                                    div(class = "float box box-more2",
-                                       tags$p(class = "intro", "GitHub Profile"),
-                                       tags$p("Click here to get access to more technical details through my GitHub profile")
+                                       tags$p(class = "intro", i18n$t("GitHub WebPage")),
+                                       tags$p(i18n$t("Click here to get access to more technical details through my GitHub profile"))
                                    ))
                         ),
-                        tags$p("Some Graphs can be downloaded as PDFs and some tables can be downloaded to a csv file. Data used in each section are public and free of usage. Information on how to use the app and contact details are available in the",
-                               tags$a("Help/Contact", title = "Help Tab", href = "#", id = "ContactTabLink"), "tab.",
+                        tags$p(i18n$t("Some Graphs can be downloaded as PDFs and some tables can be downloaded to a csv file. Data used in each section are public and free of usage. Information on how to use the app and contact details are available in the"),
+                               tags$a("Help/Contact", title = "Help Tab", href = "#", id = "ContactTabLink"), i18n$t("tab."),
                                tags$script("$('#ContactTabLink').click(function(){$('a[data-value=\"Help/Contact\"]')[0].click();});")
                         ),
                         div(class = "box box-timeout",
-                            tags$p(tags$span(class = "bold", "PLEASE NOTE:"),
-                                   "This app may time-out if left idle too long, which will cause the screen to grey-out.",
-                                   "To use the app again, refresh the page. This will reset all previously-selected input options.")
+                            tags$p(tags$span(class = "bold", i18n$t("PLEASE NOTE:")),
+                                   i18n$t("This app may time-out if left idle too long, which will cause the screen to grey-out."),
+                                   i18n$t("To use the app again, refresh the page. This will reset all previously-selected input options."))
                         )
 )
 

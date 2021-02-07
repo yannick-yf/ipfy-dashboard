@@ -26,7 +26,16 @@ ui <-
          });});'),
       ## Disable DataTable error reporting
       tags$script('$.fn.dataTableExt.sErrMode = "throw";'),
-      tags$script(src = "js/iframeResizer.contentWindow.min.js")
+      tags$script(src = "js/iframeResizer.contentWindow.min.js"),
+      tags$div(
+        style='float: right;',
+        selectInput(
+          inputId='selected_language',
+          label='',
+          choices = i18n$get_languages(),
+          selected = i18n$get_key_translation()
+        )
+      )
     ),
     ## Place mbie_header inside a container-fluid for correct positioning
     div(class = "container-fluid", mbie_header())

@@ -11,3 +11,4 @@ shinyApp(ui = ui,
 
 # Multiple language in RShiny
 # https://appsilon.com/internationalization-of-shiny-apps-i18n/
+# https://appsilon.com/rapid-internationalization-of-shiny-apps-shiny-i18n-version-0-2/

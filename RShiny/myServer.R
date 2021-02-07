@@ -8,4 +8,8 @@
 
 myserver <- function(input, output, session){
   
+  observeEvent(input$selected_language, {
+    update_lang(session, input$selected_language)
+  })
+  
 }
